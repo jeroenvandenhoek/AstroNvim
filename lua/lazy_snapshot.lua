@@ -37,6 +37,8 @@ return {
   { "nvim-tree/nvim-web-devicons", commit = "14b3a5ba63b82b60cde98d0a40319d80f25e8301", optional = true },
   { "nvim-treesitter/nvim-treesitter", commit = "70f161b1dda985d08e106d5e3744b2612755f748", optional = true },
   { "nvim-treesitter/nvim-treesitter-textobjects", commit = "83c59ed1eeae70a55605990993cf4d208948fdf7", optional = true },
+  { "ellisonleao/gruvbox.nvim", priority = 1000 },
+  { "larsbs/vimterial"},
   { "onsails/lspkind.nvim", commit = "57610d5ab560c073c465d6faf0c19f200cb67e6e", optional = true },
   { "rafamadriz/friendly-snippets", commit = "70b727d3454cceb3a818b1746be09786568b7e33", optional = true },
   { "rcarriga/cmp-dap", commit = "d16f14a210cd28988b97ca8339d504533b7e09a4", optional = true },
