@@ -40,6 +40,7 @@ return {
   { "ellisonleao/gruvbox.nvim",                    priority = 1000 },
   { "larsbs/vimterial" },
   { "zbirenbaum/copilot.lua" },
+  { "mattn/emmet-vim" },
   { "onsails/lspkind.nvim",                        commit = "57610d5ab560c073c465d6faf0c19f200cb67e6e", optional = true },
   { "rafamadriz/friendly-snippets",                commit = "70b727d3454cceb3a818b1746be09786568b7e33", optional = true },
   { "rcarriga/cmp-dap",                            commit = "d16f14a210cd28988b97ca8339d504533b7e09a4", optional = true },
