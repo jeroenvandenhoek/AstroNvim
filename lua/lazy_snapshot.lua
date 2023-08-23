@@ -35,34 +35,38 @@ return {
   { "nvim-telescope/telescope-fzf-native.nvim",    commit = "9bc8237565ded606e6c366a71c64c0af25cd7a50", optional = true },
   { "nvim-telescope/telescope.nvim",               version = "^0.1",                                    optional = true },
   { "nvim-tree/nvim-web-devicons",                 commit = "14b3a5ba63b82b60cde98d0a40319d80f25e8301", optional = true },
-  { "nvim-treesitter/nvim-treesitter",             commit = "70f161b1dda985d08e106d5e3744b2612755f748", optional = true },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    commit = "70f161b1dda985d08e106d5e3744b2612755f748",
+    optional = true,
+  },
   { "nvim-treesitter/nvim-treesitter-textobjects", commit = "83c59ed1eeae70a55605990993cf4d208948fdf7", optional = true },
   { "ellisonleao/gruvbox.nvim",                    priority = 1000 },
   {
-      "kylechui/nvim-surround",
-      version = "*", -- Use for stability; omit to use `main` branch for the latest features
-      event = "VeryLazy",
-      config = function()
-          require("nvim-surround").setup({
-              -- Configuration here, or leave empty to use defaults
-          })
-      end
+    "kylechui/nvim-surround",
+    version = "*", -- Use for stability; omit to use `main` branch for the latest features
+    event = "VeryLazy",
+    config = function()
+      require("nvim-surround").setup({
+        -- Configuration here, or leave empty to use defaults
+      })
+    end
   },
   { "larsbs/vimterial" },
   { "zbirenbaum/copilot.lua" },
   { "mattn/emmet-vim" },
-  { "onsails/lspkind.nvim",                        commit = "57610d5ab560c073c465d6faf0c19f200cb67e6e", optional = true },
-  { "rafamadriz/friendly-snippets",                commit = "70b727d3454cceb3a818b1746be09786568b7e33", optional = true },
-  { "rcarriga/cmp-dap",                            commit = "d16f14a210cd28988b97ca8339d504533b7e09a4", optional = true },
-  { "rcarriga/nvim-dap-ui",                        version = "^3",                                      optional = true },
-  { "rcarriga/nvim-notify",                        version = "^3",                                      optional = true },
-  { "rebelot/heirline.nvim",                       commit = "2a151df2dc870e79b138a59ebaaaddf3d1b0d703", optional = true },
-  { "s1n7ax/nvim-window-picker",                   version = "^1",                                      optional = true },
-  { "saadparwaiz1/cmp_luasnip",                    commit = "18095520391186d634a0045dacaa346291096566", optional = true },
-  { "stevearc/aerial.nvim",                        commit = "c30fb2c9bd09592351eed676f4c20e7a6411020e", optional = true },
-  { "stevearc/dressing.nvim",                      commit = "5fb5cce0cbfcedeadbcee43e5674e8c9a9f28d4a", optional = true },
-  { "williamboman/mason-lspconfig.nvim",           version = "^1.1",                                    optional = true },
-  { "williamboman/mason.nvim",                     version = "^1",                                      optional = true },
-  { "windwp/nvim-autopairs",                       commit = "e8f7dd7a72de3e7b6626c050a802000e69d53ff0", optional = true },
-  { "windwp/nvim-ts-autotag",                      commit = "6be1192965df35f94b8ea6d323354f7dc7a557e4", optional = true },
+  { "onsails/lspkind.nvim",              commit = "57610d5ab560c073c465d6faf0c19f200cb67e6e", optional = true },
+  { "rafamadriz/friendly-snippets",      commit = "70b727d3454cceb3a818b1746be09786568b7e33", optional = true },
+  { "rcarriga/cmp-dap",                  commit = "d16f14a210cd28988b97ca8339d504533b7e09a4", optional = true },
+  { "rcarriga/nvim-dap-ui",              version = "^3",                                      optional = true },
+  { "rcarriga/nvim-notify",              version = "^3",                                      optional = true },
+  { "rebelot/heirline.nvim",             commit = "2a151df2dc870e79b138a59ebaaaddf3d1b0d703", optional = true },
+  { "s1n7ax/nvim-window-picker",         version = "^1",                                      optional = true },
+  { "saadparwaiz1/cmp_luasnip",          commit = "18095520391186d634a0045dacaa346291096566", optional = true },
+  { "stevearc/aerial.nvim",              commit = "c30fb2c9bd09592351eed676f4c20e7a6411020e", optional = true },
+  { "stevearc/dressing.nvim",            commit = "5fb5cce0cbfcedeadbcee43e5674e8c9a9f28d4a", optional = true },
+  { "williamboman/mason-lspconfig.nvim", version = "^1.1",                                    optional = true },
+  { "williamboman/mason.nvim",           version = "^1",                                      optional = true },
+  { "windwp/nvim-autopairs",             commit = "e8f7dd7a72de3e7b6626c050a802000e69d53ff0", optional = true },
+  { "windwp/nvim-ts-autotag",            commit = "6be1192965df35f94b8ea6d323354f7dc7a557e4", optional = true },
 }
