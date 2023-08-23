@@ -38,16 +38,16 @@ return {
   { "nvim-treesitter/nvim-treesitter",             commit = "70f161b1dda985d08e106d5e3744b2612755f748", optional = true },
   { "nvim-treesitter/nvim-treesitter-textobjects", commit = "83c59ed1eeae70a55605990993cf4d208948fdf7", optional = true },
   { "ellisonleao/gruvbox.nvim",                    priority = 1000 },
-{
-    "kylechui/nvim-surround",
-    version = "*", -- Use for stability; omit to use `main` branch for the latest features
-    event = "VeryLazy",
-    config = function()
-        require("nvim-surround").setup({
-            -- Configuration here, or leave empty to use defaults
-        })
-    end
-},
+  {
+      "kylechui/nvim-surround",
+      version = "*", -- Use for stability; omit to use `main` branch for the latest features
+      event = "VeryLazy",
+      config = function()
+          require("nvim-surround").setup({
+              -- Configuration here, or leave empty to use defaults
+          })
+      end
+  },
   { "larsbs/vimterial" },
   { "zbirenbaum/copilot.lua" },
   { "mattn/emmet-vim" },
