@@ -9,7 +9,6 @@ return {
             Javascript = require('treesj.langs.javascript'),
             Typescript = require('treesj.langs.typescript'),
             Tsx = require('treesj.langs.tsx'),
-            Jsx = require('treesj.langs.jsx'),
             Svelte = require('treesj.langs.svelte'),
             Json = require('treesj.langs.json'),
             Jsonc = require('treesj.langs.jsonc'),
